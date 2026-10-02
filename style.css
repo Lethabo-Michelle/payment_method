@@ -23,25 +23,33 @@
   font-style: normal;
 }
 
-h5 {
+.top {
+  display: flex;
+  align-items: center;
+}
+
+h5,
+h6 {
   font-family: "Rosarivo", serif;
   color: #efe3c8;
 }
 
-.payment_type {
-  font-size: 9.54px;
-  background-color: transparent;
-  font-size: 9.54px;
-  font-weight: 400;
-  font-family: "Raleway";
-  color: #ffffff;
+h5 {
+  font-size: 14.31px;
+  line-height: 125%;
+}
+
+h6 {
+  font-size: 10.74px;
+  line-height: 100%;
 }
 
 svg {
   background-color: transparent;
 }
 
-.payment_cards {
+.payment_cards,
+.address_cards {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -56,4 +64,74 @@ svg {
   padding-block: 8px;
   /* height: 35.79px; */
   border-radius: 3.58px;
+}
+
+.payment_type {
+  font-size: 9.54px;
+  background-color: transparent;
+  font-family: "Raleway";
+  color: #ffffff;
+  line-height: 100%;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.address_card {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: 0.6px solid #efe3c8;
+  height: 42.35px;
+  border-radius: 3.58px;
+}
+
+.address_name {
+  font-size: 9.54px;
+  font-weight: 700;
+  line-height: 9.54px;
+  color: #ffffff;
+}
+
+.location {
+  font-size: 5.37px;
+  color: #888888;
+  line-height: 7.16px;
+}
+
+.location_details {
+  background-color: transparent;
+}
+
+.btm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+}
+
+.back_arrow {
+  background-color: #362c36;
+  width: 26.24px;
+  height: 26.24px;
+  border-radius: 3.58px;
+  text-align: center;
+}
+
+.arrow {
+  padding: 0;
+}
+
+button {
+  border-radius: 3.58px;
+  border: none;
+  background-color: #efe3c8;
+  width: 100%;
+  height: 46px;
+  padding-inline: 14.32px;
+  padding-block: 8.35px;
 }
