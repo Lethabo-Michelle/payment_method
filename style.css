@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  background-color: #201520;
+  padding: 8px 8px;
+}
+
 .rosarivo-regular {
-  font-family: "Rosarivo", cursive;
+  font-family: "Rosarivo", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -10,14 +16,44 @@
   font-style: italic;
 }
 
-.rosarivo-regular {
-  font-family: "Rosarivo", cursive;
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.rosarivo-regular-italic {
-  font-family: "Rosarivo", cursive;
+h5 {
+  font-family: "Rosarivo", serif;
+  color: #efe3c8;
+}
+
+.payment_type {
+  font-size: 9.54px;
+  background-color: transparent;
+  font-size: 9.54px;
   font-weight: 400;
-  font-style: italic;
+  font-family: "Raleway";
+  color: #ffffff;
+}
+
+svg {
+  background-color: transparent;
+}
+
+.payment_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #362c36;
+  padding-inline: 16px;
+  padding-block: 8px;
+  /* height: 35.79px; */
+  border-radius: 3.58px;
 }
