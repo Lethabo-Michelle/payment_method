@@ -52,7 +52,8 @@ svg {
 .address_cards {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 15px;
+  background-color: transparent;
 }
 
 .card {
@@ -62,7 +63,6 @@ svg {
   background-color: #362c36;
   padding-inline: 16px;
   padding-block: 8px;
-  /* height: 35.79px; */
   border-radius: 3.58px;
 }
 
@@ -81,12 +81,12 @@ svg {
 }
 
 .address_card {
-  background-color: transparent;
   display: flex;
   align-items: center;
   border: 0.6px solid #efe3c8;
   height: 42.35px;
   border-radius: 3.58px;
+  padding: 8px 16px;
 }
 
 .address_name {
